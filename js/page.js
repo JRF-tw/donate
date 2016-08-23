@@ -11,7 +11,7 @@ var Page = (function() {
 			shadowSides	: 0.8,
 			shadowFlip	: 0.4,
 			onEndFlip : function(old, page, isLimit) {
-				
+
 				current = page;
 				// update TOC current
 				updateTOC();
@@ -45,7 +45,7 @@ var Page = (function() {
 		initEvents();
 
 	}
-	
+
 	function initEvents() {
 
 		// add navigation events
@@ -58,7 +58,7 @@ var Page = (function() {
 			bb.prev();
 			return false;
 		} );
-		
+
 		// add swipe events
 		$items.on( {
 			'swipeleft'		: function( event ) {
@@ -74,6 +74,24 @@ var Page = (function() {
 				}
 				bb.prev();
 				return false;
+			},
+			'mousewheel': function(event) {
+				// JRF: implement wheeling flip page
+				if (bb.isAnimating) return; // Do not flip page when animating
+
+				var $content = $items.eq(current).children('div.content');
+				var apiJSP = $content.data('jsp');
+				if (!apiJSP.getIsScrollableV()) {
+					if (event.deltaY < 0)
+						bb.next();
+					else if (event.deltaY > 0)
+						bb.prev();
+				} else {
+					if (event.deltaY < 0 && apiJSP.getPercentScrolledY() >= 1)
+						bb.next();
+					else if (event.deltaY > 0 && apiJSP.getPercentScrolledY() <= 0)
+						bb.prev();
+				}
 			}
 		} );
 
@@ -88,11 +106,11 @@ var Page = (function() {
 				jump = function() {
 					bb.jump( idx + 1 );
 				};
-			
+
 			current !== idx ? closeTOC( jump ) : closeTOC();
 
 			return false;
-			
+
 		} );
 
 		// reinit jScrollPane on window resize
@@ -104,11 +122,11 @@ var Page = (function() {
 	}
 
 	function setJSP( action, idx ) {
-		
+
 		var idx = idx === undefined ? current : idx,
 			$content = $items.eq( idx ).children( 'div.content' ),
 			apiJSP = $content.data( 'jsp' );
-		
+
 		if( action === 'init' && apiJSP === undefined ) {
 			$content.jScrollPane({verticalGutter : 0, hideFocus : true });
 		}
@@ -126,7 +144,7 @@ var Page = (function() {
 	}
 
 	function updateNavigation( isLastPage ) {
-		
+
 		if( current === 0 ) {
 			$navNext.show();
 			$navPrev.hide();
