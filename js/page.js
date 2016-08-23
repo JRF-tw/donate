@@ -74,24 +74,6 @@ var Page = (function() {
 				}
 				bb.prev();
 				return false;
-			},
-			'mousewheel': function(event) {
-				// JRF: implement wheeling flip page
-				if (bb.isAnimating) return; // Do not flip page when animating
-
-				var $content = $items.eq(current).children('div.content');
-				var apiJSP = $content.data('jsp');
-				if (!apiJSP.getIsScrollableV()) {
-					if (event.deltaY < 0)
-						bb.next();
-					else if (event.deltaY > 0)
-						bb.prev();
-				} else {
-					if (event.deltaY < 0 && apiJSP.getPercentScrolledY() >= 1)
-						bb.next();
-					else if (event.deltaY > 0 && apiJSP.getPercentScrolledY() <= 0)
-						bb.prev();
-				}
 			}
 		} );
 
