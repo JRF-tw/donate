@@ -214,7 +214,10 @@ hr {
 }
 .popover,.popover-content{
     color: #543A3A;
-    background-color: #FFF
+    background-color: #FFF;
+}
+.popover {
+  width: 200px;
 }
 .arrow{
     color: #FFCB89
