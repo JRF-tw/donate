@@ -206,6 +206,22 @@ hr {
     padding: 2px !important;
     background-color: #543A3A
 }
+.popover-title{
+    background: #543A3A;
+    color: #FFF;
+    border-bottom: none;
+    text-align: center;
+}
+.popover,.popover-content{
+    color: #543A3A;
+    background-color: #FFF
+}
+.arrow{
+    color: #FFCB89
+}
+a.gift-a{
+    color: #FFCB89;
+}
 
 @media (min-width:768px) {
     p {
