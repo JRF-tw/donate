@@ -9,7 +9,10 @@ html {
     height: 100%;
     width: 100%;
 }
-
+.navbar-custom {
+    background-color: #8A915D;
+    color: #fff;
+}
 .intro,
 body,
 html {
