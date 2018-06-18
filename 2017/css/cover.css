@@ -10,6 +10,11 @@ html {
     width: 100%;
 }
 
+.navbar-custom {
+    background-color: #000000;
+    color: #FFCB89;
+}
+
 .intro,
 body,
 html {
@@ -17,7 +22,7 @@ html {
 }
 
 body {
-    background-color: #8A915D;
+    background-color: #FFCB89;
     font-family: '微軟正黑體';
     color: #fff;
     webkit-tap-highlight-color: rgba(255, 255, 255, .2)
@@ -58,7 +63,7 @@ blockquote
     margin: 20px auto 20px;
     font-size: 2em;
     position: relative;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 0;
     margin-left: 40px;
 }
 blockquote p {
@@ -77,9 +82,16 @@ blockquote:before {
     left: -40px;
     font: italic 400%/1 Cochin, Georgia, "Times New Roman", serif;
 }
-
-.text-center{
-    text-align: center;
+hr {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 0;
+    border-top: 1px solid #543A3A;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, .4);
+}
+.label-default {
+    background-color: #543A3A;
+    color: #FFCB89;
 }
 
 .navbar-brand {
@@ -101,8 +113,8 @@ blockquote:before {
 }
 
 .btn-default {
-    border: 2px solid #8A915D;
-    color: #8A915D;
+    border: 2px solid #FFCB89;
+    color: #FFCB89;
     background: 0 0;
     padding-left: 50px;
     padding-right: 50px;
@@ -112,80 +124,100 @@ blockquote:before {
 
 .btn-default:focus,
 .btn-default:hover {
-    border: 2px solid #8A915D;
-    background-color: #8A915D;
-    color: #fff;
-
-}
-
-.btn-w {
-    border: 2px solid #fff;
-    color: #fff;
-    background: 0 0;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-radius: 50px;
-    text-shadow: none;
-}
-
-.btn-w:focus,
-.btn-w:hover {
-    border: 2px solid #fff;
-    background-color: #fff;
-    color: #8A915D;
-
+    border: 2px solid #FFCB89;
+    background-color: #FFCB89;
+    color: #543A3A;
 }
 
 .content-section {
-    background-color: #8A915D;
-    color:#fff;
+    padding-top: 40px;
+    background-color: #FFCB89;
+    color:#543A3A;
     text-align: justify;
 }
 .donate {
-    padding: 20px;
-    background-color:#fff ;
-    color:#8A915D;
-}
-.separator {
-    display: block;
-    width: 50px;
-    height: 5px;
-    margin: 30px auto;
-    background-color: #fff;
-    position: relative;
-    }
-
-.gift-1{
-    background-color: rgba(138, 145, 93, .4); 
-    box-shadow: 3px 3px 3px rgba(138, 145, 93, .6);
-    border-radius: 5px;
-    padding: 20px 20px 20px 20px;
-}
-.gift-1 p{
-    font-size: 1.2em;
-    text-align: left;
-    margin: 10px 0 0 0;
+    padding: 40px;
+    background-color: #543A3A;
+    color:#FFCB89;
 }
 .gift{
     background-color: rgba(255, 255, 255, .2); 
     box-shadow: 3px 3px 3px rgba(255, 255, 255, .4);
     border-radius: 5px;
-    padding: 20px 20px 20px 20px;
+    padding: 10px
+}
+.gift div{
+    padding-bottom: 10px
+}
+.lottery{
+    color: #543A3A;
+    background-color:#FFCB89;
+    margin-top: 40px;
+    text-align: justify;
+}
+.lottery a.label.label-default {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    color: #000;
+    background-color: #FFCB89;
+    border: 1px solid #543A3A;
+    text-decoration: none;
+    font-weight: 600; 
 }
 
+.lottery a.label.label-default:focus,
+.lottery a.label.label-default:hover {
+    font-weight: 600;
+    text-decoration: none;
+    color: #FFCB89;
+    background-color:#543A3A; 
+
+}
+
+.lottery a {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    text-decoration: underline;
+    color: #543A3A;
+    font-weight: 600; 
+}
+
+.lottery a:focus,
+.lottery a:hover {
+    font-weight: 600;
+    color: #000;
+}
+
+.lottery li {
+    font-size: 16px;
+    line-height: 1.8;
+}
 .gift-h{
-    display:inline-block;
     border-radius: 0;
     position: absolute;
     border-color: transparent;
-    top: -5px;
+    top: -1px;
     left: 20px;
-    font-weight: 400;
-    color: #fff;
-    font-size: 20px;
-    padding: 9px !important;
-    background-color: #543A3A;
-    z-index: 1;
+    font-weight: 300;
+    color: #FFCB89;
+    font-size: 10px;
+    padding: 2px !important;
+    background-color: #543A3A
+}
+.popover-title{
+    background: #543A3A;
+    color: #FFF;
+    border-bottom: none;
+    text-align: center;
+}
+.popover,.popover-content{
+    color: #543A3A;
+    background-color: #FFF;
+}
+.popover {
+  width: 200px;
 }
 .arrow{
     color: #FFCB89
@@ -286,7 +318,7 @@ a:hover {
     }
     .navbar-custom.top-nav-collapse {
         padding: 0;
-        background: #8A915D;
+        background: #000;
         border-bottom: 1px solid rgba(255, 255, 255, .3)
     }
 }
@@ -297,7 +329,7 @@ a:hover {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/cover.jpg) bottom center no-repeat fixed #8A915D;
+    background: url(../img/intro-bg.jpg) bottom center no-repeat fixed #FFCB89;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -310,13 +342,11 @@ a:hover {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px;
-    text-shadow: 3px 3px #8A915D;
+    font-size: 40px
 }
 
 .intro .intro-body .intro-text {
-    font-size: 18px;
-    color: #fff;
+    font-size: 18px
 }
 
 @media (min-width:768px) {
@@ -425,7 +455,7 @@ ul.banner-social-buttons {
 
 footer {
     padding: 50px 0;
-    background-color: #453726;
+    background-color: #000000;
     color: #cccccc;
 }
 
