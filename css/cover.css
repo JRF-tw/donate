@@ -184,15 +184,15 @@ blockquote:before {
 
 .gift-h {
     display: inline-block;
-    border-radius: 0;
+    border-radius: 5px 0px 5px ;
     position: absolute;
     border-color: transparent;
-    top: -5px;
-    left: 20px;
+    top: 0px;
+    left: 0px;
     font-weight: 400;
     color: #fff;
-    font-size: 20px;
-    padding: 9px !important;
+    font-size: 18px;
+    padding: 5px !important;
     background-color: #543A3A;
     z-index: 1;
 }
