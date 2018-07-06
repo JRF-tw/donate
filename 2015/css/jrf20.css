@@ -1,0 +1,525 @@
+﻿/*
+Theme Name:iDea - Clean & Powerful Bootstrap Theme
+Author:HtmlCoder
+Author URI:http://www.htmlcoder.me
+Author e-mail:htmlcoder.me@gmail.com
+Version: 1.1.0
+Created:September 2014
+License URI:http://support.wrapbootstrap.com/
+File Description:Red Skin
+*/
+
+@media only screen and (max-width: 30em) {
+	  .nobreak { display: inline-block; }
+	}
+
+body {
+	font-family: "微軟正黑體";
+	font-size: 16px;
+	line-height: 1.80;
+	color: #666666;
+	background-color: #ffffff;
+}
+
+/* 1 Typography
+----------------------------------------------------------------------------- */
+a, .text-default {
+	color: #B38247;
+}
+a:hover {
+	color: #956134;
+}
+mark,
+.mark {
+	background-color:#B38247;
+	color: #ffffff;
+}
+.table > thead > tr > th {
+	border-bottom: 1px solid#B38247;
+	background-color:#B38247;
+	color: #fff;
+}
+.table-bordered {
+	border-color:#B38247;
+}
+
+/* 2 Layout
+----------------------------------------------------------------------------- */
+.default-bg {
+	background-color:#B38247;
+	color: #ffffff;
+}
+
+/* Backgrounds
+---------------------------------- */
+.default-translucent-bg:after {
+	background-color: rgba(232,76,61,0.7);
+}
+
+/* 3 Pages
+----------------------------------------------------------------------------- */
+.blogpost .post-info {
+	background-color:#B38247;
+	color: #fff;
+}
+.blogpost .side .social-links li a {
+	background-color: transparent;
+	border-color: transparent;
+	color:#B38247;
+}
+.blogpost ul.links li a:hover {
+	color:#B38247;
+}
+
+/* timeline layout */
+.timeline-date-label {
+	color:#B38247;
+}
+@media (min-width:768px) {
+	.timeline .timeline-item:before {
+		background-color: #fff;
+		border: 1px solid#B38247;
+	}
+}
+
+/* 4 Template Components
+----------------------------------------------------------------------------- */
+/* Buttons
+---------------------------------- */
+/* Gray Buttons */
+.btn-gray:hover,
+.btn-gray:focus,
+.btn-gray:active,
+.btn-gray.active,
+.open .dropdown-toggle.btn-gray {
+	color: #ffffff;
+	background-color:#B38247;
+	border-color:#B38247;
+}
+
+/* Light Gray Buttons */
+.btn-light-gray:hover,
+.btn-light-gray:focus,
+.btn-light-gray:active,
+.btn-light-gray.active,
+.open .dropdown-toggle.btn-light-gray {
+	color: #ffffff;
+	background-color:#B38247;
+	border-color:#B38247;
+}
+
+/* Default Buttons */
+.btn-default {
+	background-color:#B38247;
+	color: #fff !important;
+	border-color:#956134;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+	color: #fff !important;
+	background-color:#956134;
+	border-color:#956134;
+}
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default {
+	background-color:#956134;
+	border-color:#956134;
+}
+
+/* Button with transparent bg
+---------------------------------- */
+.btn-white {
+	background-color: transparent;
+	color:#956134;
+	border: 1px solid#B38247;
+}
+.btn-white:hover,
+.btn-white:focus,
+.btn-white:active,
+.btn-white.active,
+.open .dropdown-toggle.btn-white {
+	color: #fff;
+	background-color:#956134;
+	border-color:#956134;
+}
+
+/* Forms
+---------------------------------- */
+.default-bg .form-control {
+	border-color:#B38247;
+	background-color: rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: inset 0 2px 3px rgba(0, 0, 0, .35);
+	box-shadow: inset 0 2px 3px rgba(0, 0, 0, .35);
+	color: #ffffff;
+}
+.default-bg .form-control:focus {
+	border-color:#B38247;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+.default-bg .input-group-addon {
+	background-color:#956134;
+	border-color:#B38247;
+	color: #fff;
+}
+.dropdown .active>a>.badge,
+.dropdown a:hover .badge,
+.dropdown .open > a > .badge {
+	border-color:#B38247;
+}
+
+/* Pager
+---------------------------------- */
+ul.pagination li > a:hover {
+	background-color: transparent;
+	color: #ffffff;
+	background-color:#B38247;
+	border-color:#B38247;
+}
+ul.pagination li.active a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus {
+	color: #ffffff;
+	background-color:#B38247;
+	border-color:#B38247;
+}
+
+/* Tabs
+---------------------------------- */
+.nav-tabs > li.active > a:after {
+	background-color:#B38247;
+}
+.tab-content:after {
+	background-color:#B38247;
+}
+@media (max-width:480px) {
+	.nav-tabs > li > a:hover:after {
+		background-color:#B38247;
+	}
+}
+
+/* Horizontal tabs version 2 */
+.tabs-style-2 .nav-tabs {
+	border-bottom: 1px solid#B38247;
+}
+.tabs-style-2 .nav-tabs > li.active > a,
+.tabs-style-2 .nav-tabs > li.active > a:hover,
+.tabs-style-2 .nav-tabs > li.active > a:focus,
+.tabs-style-2 .nav-tabs > li > a:hover {
+	border: 1px solid#B38247;
+	background-color:#B38247;
+	color: #fff;
+}
+
+/* vertical tabs */
+.vertical .nav-tabs > li > a:hover:after {
+	background-color:#B38247;
+}
+
+/* Nav pills
+---------------------------------- */
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus,
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus {
+	border: 1px solid #f3f3f3;
+	color:#B38247;
+	background-color: #fafafa;
+}
+.nav-pills > li.active > a:after {
+	color:#B38247;
+}
+.nav-pills > li.active > a:hover:after,
+.nav-pills > li.active > a:focus:after,
+.nav-pills > li > a:hover:after,
+.nav-pills > li > a:focus:after {
+	color:#B38247;
+}
+.light .footer-content .nav-pills > li.active > a:hover,
+.light .footer-content .nav-pills > li > a:hover {
+	color:#956134;
+}
+
+/* Collapse
+---------------------------------- */
+.panel-heading a {
+	background-color:#B38247;
+	color: #ffffff;
+}
+.panel-heading a:hover,
+.panel-transparent .panel-heading a:hover {
+	background-color:#B38247;
+	color: #ffffff;
+}
+
+/* Progress bars
+---------------------------------- */
+.progress-bar-default {
+	background-color:#B38247;
+}
+
+/* Modals
+---------------------------------- */
+.modal-content .modal-header {
+	background-color:#B38247;
+}
+
+/* Images and Images overlay
+---------------------------------- */
+.overlay a {
+	color:#B38247;
+	background-color: #ffffff;
+}
+.overlay-links a + a {
+	color: #ffffff;
+	background-color:#B38247;
+}
+a.overlay i {
+	color:#B38247;
+}
+
+/* 5 Navigations
+----------------------------------------------------------------------------- */
+/* first level active menu items on hover/focus */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus {
+	color:#B38247;
+	background-color: transparent;
+}
+
+.main-navigation .navbar-nav > .open > a, 
+.main-navigation .navbar-nav > .open > a:hover, 
+.main-navigation .navbar-nav > .open > a:focus { 
+	color: #666666; 
+	background-color: #fafafa; 
+}
+
+/* second level menu items on focus/hover and when opened */
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu .menu > .active > a,
+.dropdown-menu .menu > .active > a:hover,
+.dropdown-menu .menu > .active > a:focus {
+	background-color: #ffffff;
+	color:#B38247;
+	border-color: #f1f1f1;
+}
+
+/* mega menu menu items on focus/hover and when opened */
+.mega-menu .menu > li > a:hover,
+.mega-menu .menu > li > a:focus {
+	background-color: #ffffff;
+	color:#B38247;
+	border-color: #f1f1f1;
+}
+
+/* arrows for parent menu items */
+.navbar-default .navbar-nav > .active.dropdown > a:before {
+	color:#B38247;
+}
+.navbar-default .navbar-nav > .dropdown.open > a:before { 
+	color: #e5e5e5; 
+}
+.dropdown .dropdown.open>a:before {
+	color:#B38247;
+}
+
+/* mobile menu toggle button on hover/focus */
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	background-color: #fafafa;
+	border-color:#B38247;
+}
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar {
+	background-color:#B38247;
+}
+@media (max-width:767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a, 
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, 
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus { 
+		color:#B38247; 
+		background-color: transparent; 
+	}
+	
+	/* first level items hover and focus states */
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus,
+	.navbar-default .navbar-nav > .active > a:hover,
+	.navbar-default .navbar-nav > .active > a:focus {
+		color:#B38247;
+		background-color: #fff;
+	}
+	
+	/* second level items on hover/focus */
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		color:#B38247;
+	}
+}
+
+/* Subfooter navigation
+---------------------------------- */
+.subfooter .navbar-default .nav > li > a:hover,
+.subfooter .navbar-default .nav > .active > a:hover,
+.subfooter .navbar-default .nav > .active > a:focus {
+	background-color: transparent;
+	color:#B38247;
+}
+
+/* 6 Blocks/Widgets
+----------------------------------------------------------------------------- */
+/* Boxes
+---------------------------------- */
+.box.gray-bg:hover {
+	color:#B38247;
+}
+.box.default-bg:hover {
+	background-color: #fff;
+	border: 1px solid#B38247;
+}
+.box.default-bg:hover * {
+	color:#B38247;
+}
+.box-style-1:not(.team-member):hover i {
+	color:#B38247;
+}
+.box-style-1.default-bg:hover i, 
+.box-style-1.dark-bg:hover i {
+	color: inherit;
+}
+.box-style-2:hover .default-bg {
+	background-color: #fff;
+	border: 1px solid#B38247;
+}
+.box-style-2:hover .default-bg * {
+	color:#B38247;
+}
+.box-style-2:hover .white-bg * {
+	color:#B38247;
+}
+.box-style-3:hover .default-bg {
+	background-color: #fff;
+	border: 1px solid#B38247;
+}
+.box-style-3:hover .default-bg * {
+	color:#B38247;
+}
+.box-style-3:hover .white-bg * {
+	color:#B38247;
+}
+
+/* Tags cloud block
+---------------------------------- */
+.tag a:hover {
+	color: #ffffff;
+	background-color:#B38247;
+	border-color:#B38247;
+}
+
+/* Social icons block
+---------------------------------- */
+.social-links li a {
+	background:#B38247;
+	border: 1px solid#B38247;
+	color: #fff;
+}
+.social-links li a:hover {
+	background-color: transparent;
+	border-color:#956134;
+	color:#956134;
+}
+.social-links .dropdown.open>button>i:before {
+	content: "\f00d";
+	color:#B38247;
+}
+.header-top .social-links li a:hover {
+	color:#956134;
+}
+
+/* search and login
+---------------------------------- */
+.header-top-dropdown .dropdown.open>button,
+.header-top-dropdown .dropdown>button:hover {
+
+	color:#B38247;
+}
+
+/* Pricing tables
+---------------------------------- */
+.plan .popover-title {
+	background-color:#B38247;
+	color: #ffffff;
+}
+.gray .plan .header h3 {
+	color:#B38247;
+}
+.white .plan .header {
+	color: #fff;
+	background:#B38247;
+}
+.stripped .header {
+	background:#B38247;
+	-webkit-box-shadow: 0px 0px 60px#956134 inset;
+	-moz-box-shadow: 0px 0px 60px#956134 inset;
+	box-shadow: 0px 0px 60px#956134 inset;
+	color: #fff;
+}
+
+/* 7 Main Slideshow
+----------------------------------------------------------------------------- */
+/* Slider Revolution captions */
+.default_bg {
+	background-color:#B38247;
+	color: #fff;
+}
+
+/* Revolution Nav Controls */
+.tparrows.round:hover {
+	color: #ffffff;
+	background-color:#B38247;
+}
+.tp-bullets.simplebullets.round .bullet:hover,
+.tp-bullets.simplebullets.round .bullet.selected {
+	background-color:#B38247;
+}
+.tp-bannertimer {
+	background-color: rgba(232,76,61,0.7);
+}
+
+/* 8 Owl carousel
+----------------------------------------------------------------------------- */
+.owl-prev {
+	background-color:#B38247;
+	color: #f1f1f1;
+}
+.owl-next {
+	background-color: #f1f1f1;
+	color:#B38247;
+}
+.content-slider-with-controls .owl-buttons div,
+.content-slider-with-controls-autoplay .owl-buttons div {
+	background-color:#B38247;
+	color: #f1f1f1;
+}
+.content-slider-with-controls .owl-prev:hover,
+.content-slider-with-controls .owl-next:hover,
+.content-slider-with-controls-autoplay .owl-prev:hover,
+.content-slider-with-controls-autoplay .owl-next:hover {
+	background-color: #f1f1f1;
+	color:#B38247;
+}
+.owl-controls .owl-page.active span,
+.owl-controls.clickable .owl-page:hover span {
+	background:#B38247;
+}
