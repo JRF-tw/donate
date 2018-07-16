@@ -13,6 +13,8 @@
         height: 100vh;
         -webkit-transform-style: preserve-3d;
         transform-style: preserve-3d;
+        -webkit-transition: -webkit-transform 0.5s;
+        transition: transform 0.5s;
       }
       .parallax__layer {
         position: absolute;
@@ -22,8 +24,8 @@
         bottom: 0;
       }
       .parallax__layer--fore {
-        -webkit-transform: translateZ(90px) scale(.7);
-        transform: translateZ(90px) scale(.7);
+        -webkit-transform: translateZ(180px) scale(.4);
+        transform: translateZ(180px) scale(.4);
       }
       .parallax__layer--base {
         -webkit-transform: translateZ(0);
@@ -36,8 +38,4 @@
       .parallax__layer--deep {
         -webkit-transform: translateZ(-600px) scale(3);
         transform: translateZ(-600px) scale(3);
-      }
-      .parallax__group {
-        -webkit-transition: -webkit-transform 0.5s;
-        transition: transform 0.5s;
       }
