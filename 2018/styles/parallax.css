@@ -24,8 +24,8 @@
         bottom: 0;
       }
       .parallax-layer-fore {
-        -webkit-transform: translateZ(200px) scale(.5);
-        transform: translateZ(200px) scale(.5);
+        -webkit-transform: translateZ(180px) scale(.5);
+        transform: translateZ(180px) scale(.5);
       }
       .parallax-layer-base {
         -webkit-transform: translateZ(0);
@@ -36,6 +36,6 @@
         transform: translateZ(-500px) scale(2.5);
       }
       .parallax-layer-deep {
-        -webkit-transform: translateZ(-2000px) scale(8);
-        transform: translateZ(-2000px) scale(8);
+        -webkit-transform: translateZ(-2000px) scale(7.5);
+        transform: translateZ(-2000px) scale(7.5);
       }
