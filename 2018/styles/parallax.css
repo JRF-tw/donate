@@ -36,6 +36,6 @@
         transform: translateZ(-500px) scale(2.5);
       }
       .parallax-layer-deep {
-        -webkit-transform: translateZ(-2000px) scale(7.5);
-        transform: translateZ(-2000px) scale(7.5);
+        -webkit-transform: translateZ(-2000px) scale(8);
+        transform: translateZ(-2000px) scale(8);
       }
