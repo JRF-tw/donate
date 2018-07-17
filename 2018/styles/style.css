@@ -1,3 +1,50 @@
 .text-center {
 	text-align: center;
 }
+body,html {
+        overflow: hidden;
+    }
+
+    body {
+        font: 100% / 1.5 微軟正黑體;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .parallax {
+        font-size: 200%;
+    }
+
+
+    .eye {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    
+    .full-screen,
+    .full-screen img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card {
+        width: 100%;
+        height: 50vh;
+        background-color: #FAFAFC;
+        margin-top: 120vh;
+        position: relative;
+    }
+    .shot {
+        width: 100%;
+        height: 50vh;
+        background-color: #D4F1FA;
+        margin-top: 100vh;
+        position: relative;
+        opacity: 0.6;
+    }
