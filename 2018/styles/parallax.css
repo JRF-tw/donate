@@ -23,19 +23,20 @@
         right: 0;
         bottom: 0;
       }
-      .parallax-layer-fore {
+      
+      .parallax-layer-1 {
         -webkit-transform: translateZ(180px) scale(.5);
         transform: translateZ(180px) scale(.5);
       }
-      .parallax-layer-base {
+      .parallax-layer-2 {
         -webkit-transform: translateZ(0);
         transform: translateZ(0);
       }
-      .parallax-layer-back {
+      .parallax-layer-3 {
         -webkit-transform: translateZ(-500px) scale(2.5);
         transform: translateZ(-500px) scale(2.5);
       }
-      .parallax-layer-deep {
+      .parallax-layer-4 {
         -webkit-transform: translateZ(-2000px) scale(7.5);
         transform: translateZ(-2000px) scale(7.5);
       }
