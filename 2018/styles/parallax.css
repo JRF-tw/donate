@@ -1,42 +1,53 @@
       /* Parallax base styles */
+
       .parallax {
-        height: 500px; /* fallback for older browsers */
-        height: 100vh;
-        overflow-x: hidden;
-        overflow-y: scroll;
-        -webkit-perspective: 300px;
-        perspective: 300px;
+          height: 500px;
+          /* fallback for older browsers */
+          height: 100vh;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          -webkit-perspective: 300px;
+          perspective: 300px;
       }
+
       .parallax-group {
-        position: relative;
-        height: 500px; /* fallback for older browsers */
-        height: 100vh;
-        -webkit-transform-style: preserve-3d;
-        transform-style: preserve-3d;
-        -webkit-transition: -webkit-transform 0.5s;
-        transition: transform 0.5s;
+          position: relative;
+          height: 500px;
+          /* fallback for older browsers */
+          height: 100vh;
+          -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+          -webkit-transition: -webkit-transform 0.5s;
+          transition: transform 0.5s;
       }
+
       .parallax-layer {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
       }
-      
+      .parallax-layer-0 {
+          -webkit-transform: translateZ(200px) scale(.3);
+          transform: translateZ(200px) scale(.3);
+      }
       .parallax-layer-1 {
-        -webkit-transform: translateZ(180px) scale(.5);
-        transform: translateZ(180px) scale(.5);
+          -webkit-transform: translateZ(180px) scale(.5);
+          transform: translateZ(180px) scale(.5);
       }
+
       .parallax-layer-2 {
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);
+          -webkit-transform: translateZ(0);
+          transform: translateZ(0);
       }
+
       .parallax-layer-3 {
-        -webkit-transform: translateZ(-500px) scale(2.5);
-        transform: translateZ(-500px) scale(2.5);
+          -webkit-transform: translateZ(-500px) scale(2.5);
+          transform: translateZ(-500px) scale(2.5);
       }
+
       .parallax-layer-4 {
-        -webkit-transform: translateZ(-2000px) scale(7.5);
-        transform: translateZ(-2000px) scale(7.5);
+          -webkit-transform: translateZ(-2000px) scale(7.5);
+          transform: translateZ(-2000px) scale(7.5);
       }
