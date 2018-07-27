@@ -43,8 +43,8 @@
       }
 
       .parallax-layer-3 {
-          -webkit-transform: translateZ(-500px) scale(2.5);
-          transform: translateZ(-500px) scale(2.5);
+          -webkit-transform: translateZ(-500px) scale(3);
+          transform: translateZ(-500px) scale(3);
       }
 
       .parallax-layer-4 {
