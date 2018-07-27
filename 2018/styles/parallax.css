@@ -29,8 +29,8 @@
           bottom: 0;
       }
       .parallax-layer-0 {
-          -webkit-transform: translateZ(200px) scale(.3);
-          transform: translateZ(200px) scale(.3);
+          -webkit-transform: translateZ(250px) scale(.2);
+          transform: translateZ(250px) scale(.2);
       }
       .parallax-layer-1 {
           -webkit-transform: translateZ(180px) scale(.5);
@@ -50,4 +50,8 @@
       .parallax-layer-4 {
           -webkit-transform: translateZ(-2000px) scale(7.5);
           transform: translateZ(-2000px) scale(7.5);
+      }
+      .parallax-layer-5 {
+          -webkit-transform: translateZ(-3000px) scale(7.5);
+          transform: translateZ(-3000px) scale(7.5);
       }

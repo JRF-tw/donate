@@ -11,7 +11,9 @@ body {
     margin: 0;
     padding: 0;
 }
-
+.gradient-bg {
+	background: linear-gradient(rgba(227,115,92,1), rgba(227,115,92,1), #1F3D55);
+}
 .parallax {
     font-size: 200%;
 }
@@ -41,7 +43,6 @@ body {
     width: 50%;
     left: 25%;
     height: 50vh;
-    background-color: #D4F1FA;
     margin-top: 100vh;
     position: relative;
     opacity: 0.6;
@@ -49,4 +50,22 @@ body {
 
 .text-center {
     text-align: center;
+}
+/* icon */
+#icon{
+	animation: icon 0.7s infinite alternate;
+	float: left;
+	position: absolute;
+	top:30px;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes icon {
+    0%   {transform: rotate(-20deg);}
+    100% {transform: rotate(0deg);}
+}
+
+/* Standard syntax */
+@keyframes icon {
+    0%   {transform: rotate(-20deg);}
+    100% {transform: rotate(0deg);}
 }
