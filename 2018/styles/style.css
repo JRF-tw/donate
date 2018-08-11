@@ -11,9 +11,11 @@ body {
     margin: 0;
     padding: 0;
 }
-p{
+
+p {
     font-size: 0.8em;
 }
+
 .gradient-bg {
     background: linear-gradient(rgba(227, 115, 92, 1), rgba(227, 115, 92, 1), rgba(31, 61, 85, 1));
 }
@@ -42,23 +44,55 @@ p{
 .sky2 {
     width: 100%;
     height: 100px;
-    background: linear-gradient(rgba(188, 226, 233, 0.6), rgba(255,255,255,1));
+    background: linear-gradient(rgba(188, 226, 233, 0.6), rgba(255, 255, 255, 1));
     margin-top: 0vh;
     padding-top: 0;
     position: relative;
 }
 
-.earth {
+.earth1 {
     width: 100%;
-    height: 270vh;
-    background: linear-gradient(#8A915D,rgba(255,255,255,1));
+    height: 90vh;
+    background: linear-gradient(rgba(138, 145, 93, 1), rgba(255, 255, 255, 1));
     margin-top: 0vh;
     padding-top: 1vh;
     position: relative;
 }
+.earth2 {
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(255, 255, 255, 1), rgba(138, 145, 93, 1));
+    margin-top: 0vh;
+    padding-top: 1vh;
+    position: relative;
+}
+
+.line-top {
+    width: 100%;
+    margin-top: 0vh;
+    position: relative;
+    height: 8vh;
+    background: linear-gradient(#453726, #8A915D);
+}
+.line-bottom{
+    width: 100%;
+    margin-top: 0vh;
+    position: relative;
+    height: 30px;
+    background: linear-gradient(#fff,#453726);
+
+}
+.line-bottom-b{
+    width: 100%;
+    margin-top: 0vh;
+    position: relative;
+    height: 30px;
+    background: linear-gradient(#453726,#453726);
+
+}
 .main {
     background-color: #fff;
-    margin-top: 10px; 
+    margin-top: 10px;
     border-radius: 5px;
     box-shadow: 3px 3px 3px rgba(138, 145, 93, .6);
     padding: 12px;
@@ -67,9 +101,11 @@ p{
 .text-center {
     text-align: center;
 }
-.nobreak{
+
+.nobreak {
     display: inline-block;
 }
+
 .btn-default {
     border: 2px solid #453726;
     color: #453726;
@@ -79,11 +115,33 @@ p{
     border-radius: 50px;
     text-shadow: none;
 }
+
 .btn-default:focus,
 .btn-default:hover {
     border: 2px solid #8A915D;
     background-color: #453726;
     color: #fff;
+}
+.footer{
+    width: 100%;
+    margin-top: 0vh;
+    position: relative;
+    background-color: #453726;
+    padding: 50px;
+    background-color: #453726;
+    color: #cccccc;
+    font-size: 0.9em;
+}
+.list-icons {
+    text-indent: -8px;
+    font-size: 0.8em;
+    padding-left: 14px;
+}
+
+.list-icons li i {
+    padding-right: 4px;
+    width: 10px;
+    text-align: center;
 }
 
 /* icon */
@@ -96,6 +154,7 @@ p{
 }
 
 
+
 /* Safari 4.0 - 8.0 */
 
 @-webkit-keyframes icon {
@@ -106,6 +165,7 @@ p{
         transform: rotate(0deg);
     }
 }
+
 
 
 /* Standard syntax */
