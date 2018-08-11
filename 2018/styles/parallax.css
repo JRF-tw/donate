@@ -1,7 +1,7 @@
       /* Parallax base styles */
 
       .parallax {
-          height: 500px;
+          height: 300px;
           /* fallback for older browsers */
           height: 100vh;
           overflow-x: hidden;
@@ -34,7 +34,7 @@
       }
       .parallax-layer-1 {
           -webkit-transform: translateZ(180px) scale(.5);
-          transform: translateZ(180px) scale(.5);
+          transform: translateZ(180px) scale(.4);
       }
 
       .parallax-layer-2 {
@@ -44,7 +44,7 @@
 
       .parallax-layer-3 {
           -webkit-transform: translateZ(-500px) scale(3);
-          transform: translateZ(-500px) scale(3);
+          transform: translateZ(-500px) scale(2.5);
       }
 
       .parallax-layer-4 {
