@@ -168,8 +168,7 @@
                     <h2 class="text-center" style="color:#fff;margin-bottom: 1em">募款專案</h2>
                     <div class="col-md-6">
                         <div class="col-xs-12 mission">#冤案救援</div>
-                    
-                </div>
+                    </div>
                     <div class="col-md-6">
                         <div class="col-xs-12 mission">#完善司法制度</div>
                     </div>
@@ -184,8 +183,34 @@
             <div class="container">
                 <div class="col-md-10 col-md-offset-1">
                     <h2 class="text-center" style="color:#fff;margin-bottom: 1em">工作報告</h2>
+                    <div class="col-md-6 col-xs-12">
+                        <p>
+                            <canvas id="myChart"></canvas>
+                        </p>
+                    </div>
+                    <div class="clearfix">&nbsp;</div>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+                    <script>
+                    var ctx = document.getElementById('myChart').getContext('2d');
+                    var myChart = new Chart(ctx, {
+                        type: 'bar',
+                        data: {
+                            labels: ['0', '2015年', '2016年', '2017年', '2017年'],
+                            datasets: [{
+                                label: '校園模擬陪審法庭',
+                                fill: false,
+                                lineTension: 0.1,
+                                data: [0, 769857, 664739, 863064, 544639],
+                                borderColor: "rgba(7,104,159,0.6)",
+                                backgroundColor: "rgba(7,104,159,0.6)"
+                            }, ]
+                        }
+                    });
+                    </script>
                 </div>
             </div>
+            <!--頁尾-->
             <div class="footer container">
                 <div class="row">
                     <div class="col-sm-6">
