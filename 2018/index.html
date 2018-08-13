@@ -349,7 +349,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <canvas id="myChart2"></canvas>
-                            <p style="color: #fff;margin-top: 20px" class="text-center small">表 校園模擬陪審法庭及各類演講場次(2015-2018.6)</p>
+                            <p style="color: #fff;margin-top: 10px" class="text-center small">表 校園模擬陪審法庭及各類演講場次(2015-2018.6)</p>
                             <script>
                             var ctx = document.getElementById('myChart2').getContext('2d');
                             var myChart = new Chart(ctx, {
@@ -378,7 +378,7 @@
                         </div>
                         <div class="col-md-4">
                             <canvas id="myChart3"></canvas>
-                            <p style="color: #fff;margin-top: 20px" class="text-center small">表 2015-2018年高中職暑期學生營隊參與人數</p>
+                            <p style="color: #fff;margin-top: 10px" class="text-center small">表 2015-2018年高中職暑期學生營隊參與人數</p>
                             <script>
                             var ctx = document.getElementById('myChart3').getContext('2d');
                             var myChart = new Chart(ctx, {
@@ -399,7 +399,7 @@
                         </div>
                         <div class="col-md-4">
                             <canvas id="myChart4"></canvas>
-                            <p style="color: #fff;margin-top: 20px" class="text-center small">表 2015-2017年司改影展及映後座談參與人次</p>
+                            <p style="color: #fff;margin-top: 10px" class="text-center small">表 2015-2017年司改影展及映後座談參與人次</p>
                             <script>
                             var ctx = document.getElementById('myChart4').getContext('2d');
                             var myChart = new Chart(ctx, {
@@ -419,6 +419,43 @@
                             </script>
                         </div>
                     </div>
+                    <h4 style="color: #fff;margin-top: 40px"><i class="far fa-paper-plane"></i> 監督法官、檢察官─申訴中心</h4>
+                    <div class="col-md-6 pull-right">
+                            <canvas id="myChart5"></canvas>
+                            <p style="color: #fff;margin-top: 10px" class="text-center small">表 2015-2017年申訴中心受理民眾電話陳情及申訴案件數</p>
+                            <script>
+                            var ctx = document.getElementById('myChart5').getContext('2d');
+                            var myChart = new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ['2015年', '2016年', '2017年',],
+                                    datasets: [{
+                                        label: '受理民眾電話陳情通數',
+                                        fill: true,
+                                        lineTension: 0.1,
+                                        data: [1097, 1180, 2534],
+                                        borderColor: "rgba(7,104,159,0.6)",
+                                        backgroundColor: "rgba(7,104,159,0.6)"
+                                    }, {
+                                        label: '受理民眾申訴案件數',
+                                        fill: true,
+                                        lineTension: 0.1,
+                                        data: [173, 173, 329],
+                                        borderColor: "rgba(162,213,242,0.6)",
+                                        backgroundColor: "rgba(162,213,242,0.6)"
+
+                                    }]
+                                }
+                            });
+                            </script>
+                        </div>
+                    <ul class="list">
+                        <li>司改會請求評鑑法官、檢察官的案件是法官、檢察官評鑑委員主要的來源。2015-2017年每年平均請求法官檢察官評鑑數量占全國評鑑案的68％。</li>
+                        <li>受理民眾電話陳情通數與受理民眾申訴法官檢察官的案件逐年成長。2017年平均每個工作天受理10通電話陳情案件。</li>
+                        <li>2015-2017年申訴中心平均維持2名專職人力。</li>
+                    </ul>
+
+                    
                 </div>
             </div>
             <!--頁尾-->
