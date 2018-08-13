@@ -145,8 +145,7 @@ p {
 }
 .mission{
     background-color: rgba(255, 255, 255, .2);
-    box-shadow: 3px 3px 3px rgba(255, 255, 255, .4);
-    border-radius: 5px;
+    border-radius: 0 0 5px 5px;
     padding: 20px 20px 20px 20px;
     margin-bottom: 10px;
 }
@@ -161,7 +160,6 @@ p {
 h4{
     color: #fff;
 }
-
 
 /* Safari 4.0 - 8.0 */
 
