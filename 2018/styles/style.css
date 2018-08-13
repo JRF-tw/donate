@@ -19,7 +19,7 @@ p {
     font-size: 0.6em;
 }
 .gradient-bg {
-    background: linear-gradient(rgba(227, 115, 92, 1), rgba(227, 115, 92, 1), rgba(31, 61, 85, 1));
+    background: linear-gradient(rgba(227, 115, 92, 1), rgba(227, 115, 92, 1),rgba(227, 115, 92, 1), rgba(31, 61, 85, 1));
 }
 
 .parallax {
