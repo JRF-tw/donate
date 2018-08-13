@@ -22,7 +22,6 @@
 </head>
 
 <body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
     <div class="parallax gradient-bg">
         <div class="parallax-group">
             <!--主視覺-->
@@ -220,17 +219,18 @@
                 </div>
             </div>
             <!--工作報告-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
             <div class="container" style="margin-top: 2em;">
                 <div class="col-md-10 col-md-offset-1 text-center">
-                    <h1 class="" style="color:#fff;margin-bottom: 1em;display: inline-block;"><span class="small" style="color: #fff;font-weight: 300;">2017</span><br>工作報告</h1><img width="30px" style="padding-bottom: 7px" src="images/w4.svg" alt="">
+                    <h1 class="" style="color:#fff;margin-bottom: 1em;display: inline-block;"><span class="small" style="color: #fff;font-weight: 300;">2017-2018.6</span><br>工作報告</h1><img width="30px" style="padding-bottom: 7px" src="images/w4.svg" alt="">
                 </div>
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
-                        <div class="col-md-6">
-                            <canvas id="myChart3-1"></canvas>
+                        <div class="col-md-6 col-sm-6">
+                            <canvas id="myChart1"></canvas>
                             <p style="color: #fff;margin-top: 20px" class="text-center small">圖 民間司改會2017年度支出分布圖</p>
                             <script>
-                            var ctx = document.getElementById('myChart3-1').getContext('2d');
+                            var ctx = document.getElementById('myChart1').getContext('2d');
                             var myChart = new Chart(ctx, {
                                 type: 'pie',
                                 data: {
@@ -260,7 +260,7 @@
                             });
                             </script>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6">
                             <table style="color: #fff" class="table small">
                                 <thead>
                                     <tr>
@@ -270,7 +270,6 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    
                                     <tr>
                                         <td>監督與冤錯案救援</td>
                                         <td>司法改革國是會議落實、偵查不公開、法官檢察官個案評鑑、法庭觀察、冤案救援組</td>
@@ -337,17 +336,89 @@
                         <li><strong>校園模擬陪審法庭</strong>
                             <br>2018年至6月底，我們已經完成112場次校園模擬陪審法庭，前進共68所國、高中學校，足跡佔全台灣國 民中學總數3%(22/732)、高級中等學校9%(46/511)。
                         </li>
-                        <li><strong>暑期學生營隊</strong><br>
-                            每年均舉辦3天2夜的高中職暑期學生營隊，四年來共有349名學員參與。
+                        <li><strong>暑期學生營隊</strong>
+                            <br> 每年均舉辦3天2夜的高中職暑期學生營隊，四年來共有349名學員參與。
                         </li>
-                        <li><strong>司改影展</strong><br>從2015至2017每年舉辦司改影展及映後座談，讓民眾從電影探討、理解司法，參與活動共660人次。
-                            
+                        <li><strong>司改影展</strong>
+                            <br>從2015至2017每年舉辦司改影展及映後座談，讓民眾從電影探討、理解司法，參與活動共660人次。
                         </li>
-                        <li><strong>實習生培力</strong><br>
-                            四年間(2015-2018年)共計有435位學生選擇至本會實習(北部辦公室371位、中部辦公室64位)。
+                        <li><strong>實習生培力</strong>
+                            <br>2015-2018年6月共計有435位學生選擇至本會實習(北部辦公室371位、中部辦公室64位)。
                         </li>
-
                     </ul>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <canvas id="myChart2"></canvas>
+                            <p style="color: #fff;margin-top: 20px" class="text-center small">表 校園模擬陪審法庭及各類演講場次(2015-2018.6)</p>
+                            <script>
+                            var ctx = document.getElementById('myChart2').getContext('2d');
+                            var myChart = new Chart(ctx, {
+                                type: 'line',
+                                data: {
+                                    labels: ['2015年', '2016年', '2017年', '2018年6月'],
+                                    datasets: [{
+                                        label: '各類演講',
+                                        fill: true,
+                                        lineTension: 0.1,
+                                        data: [58, 54, 83, 12],
+                                        borderColor: "rgba(7,104,159,0.6)",
+                                        backgroundColor: "rgba(7,104,159,0.6)"
+                                    }, {
+                                        label: '校園模擬陪審法庭',
+                                        fill: true,
+                                        lineTension: 0.1,
+                                        data: [22, 21, 45, 112],
+                                        borderColor: "rgba(162,213,242,0.6)",
+                                        backgroundColor: "rgba(162,213,242,0.6)"
+
+                                    }]
+                                }
+                            });
+                            </script>
+                        </div>
+                        <div class="col-md-4">
+                            <canvas id="myChart3"></canvas>
+                            <p style="color: #fff;margin-top: 20px" class="text-center small">表 2015-2018年高中職暑期學生營隊參與人數</p>
+                            <script>
+                            var ctx = document.getElementById('myChart3').getContext('2d');
+                            var myChart = new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ['2015年', '2016年', '2017年', '2018年'],
+                                    datasets: [{
+                                        label: '暑期學生營隊',
+                                        fill: false,
+                                        lineTension: 0.1,
+                                        data: [54, 120, 64, 110],
+                                        borderColor: "rgba(7,104,159,0.6)",
+                                        backgroundColor: "rgba(7,104,159,0.6)"
+                                    }, ]
+                                }
+                            });
+                            </script>
+                        </div>
+                        <div class="col-md-4">
+                            <canvas id="myChart4"></canvas>
+                            <p style="color: #fff;margin-top: 20px" class="text-center small">表 2015-2017年司改影展及映後座談參與人次</p>
+                            <script>
+                            var ctx = document.getElementById('myChart4').getContext('2d');
+                            var myChart = new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: ['2015年', '2016年', '2017年'],
+                                    datasets: [{
+                                        label: '司改影展',
+                                        fill: false,
+                                        lineTension: 0.1,
+                                        data: [160, 210, 290],
+                                        borderColor: "rgba(7,104,159,0.6)",
+                                        backgroundColor: "rgba(7,104,159,0.6)"
+                                    }, ]
+                                }
+                            });
+                            </script>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!--頁尾-->
