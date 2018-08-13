@@ -127,9 +127,8 @@ p {
     width: 100%;
     margin-top: 0vh;
     position: relative;
-    background-color: #453726;
+    background-color: rgba(31, 61, 85, 1);
     padding: 50px;
-    background-color: #453726;
     color: #cccccc;
     font-size: 0.9em;
 }
@@ -159,7 +158,9 @@ p {
     position: absolute;
     top: 30px;
 }
-
+h4{
+    color: #fff;
+}
 
 
 /* Safari 4.0 - 8.0 */
