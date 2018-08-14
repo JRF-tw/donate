@@ -201,7 +201,7 @@
                                 <iframe class="embed-responsive-item" width="100%" src="https://www.youtube.com/embed/k7mmMuOgH80" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                             </div>
                             <div class="col-xs-12 mission">
-                                <h5>#冤案救援</h5>
+                                <h4 style="color: #453726">#冤案救援</h4>
                                 <p>你可曾注意過有多少人跌進司法的錯誤中，原以為不容質疑的正義成了瘋狂的審判者。我們還想幫助更多，請支持民間司法改革基金會，讓更多冤案能夠再次看見陽光、碰觸雨水。</p>
                             </div>
                         </div>
@@ -212,7 +212,7 @@
                                 <iframe class="embed-responsive-item" width="100%" src="https://www.youtube.com/embed/b4RlJa5bvgc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                             </div>
                             <div class="col-xs-12 mission">
-                                <h5>#完善司法制度</h5>
+                                <h4 style="color: #453726">#完善司法制度</h4>
                                 <p>遭受雇主家男性長輩多次性侵，向加害者反抗換來被威嚇遣返，向照護對象求救遭到言語及肢體暴力。遠赴異鄉的她們，再度被迫流離失所⋯⋯。一個更為完善的司法制度，需要您的一份力量。</p>
                             </div>
                         </div>
@@ -223,7 +223,7 @@
                                 <iframe class="embed-responsive-item" width="100%" src="https://www.youtube.com/embed/ET3ArkCkvLg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                             </div>
                             <div class="col-xs-12 mission">
-                                <h5>#法治教育</h5>
+                                <h4 style="color: #453726">#法治教育</h4>
                                 <p>2018年，我們走入78所校園，完成了123場模擬法庭。但這還不夠，我們還想去更多地處偏遠、資源不足的校園！ 校園模擬法庭持續進行，請支持司改會讓法治教育深耕全台。
                                 </p>
                             </div>
@@ -235,7 +235,7 @@
                                 <iframe class="embed-responsive-item" width="100%" src="https://www.youtube.com/embed/cLeHkdVUECY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                             </div>
                             <div class="col-xs-12 mission">
-                                <h5>#司法科學制度</h5>
+                                <h4 style="color: #453726">#司法科學制度</h4>
                                 <p>鑑定往往左右了判決結果，錯誤的鑑定意見甚至可能導致冤錯案發生！我們就有瑕疵的鑑定向監察院陳訴；並且也在制度上促成司法科學建立起鑑定流程的標準作業程序。</p>
                             </div>
                         </div>
@@ -248,113 +248,30 @@
                 <div class="col-md-10 col-md-offset-1 text-center">
                     <h1 class="" style="color:#fff;margin-bottom: 1em;display: inline-block;"><span class="small" style="color: #fff;font-weight: 300;">2017-2018.6</span><br>工作報告</h1><img width="30px" style="padding-bottom: 7px" src="images/w4.svg" alt="">
                 </div>
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
-                        <div class="col-md-6 col-sm-6">
-                            <canvas id="myChart1"></canvas>
-                            <p style="color: #fff;margin-top: 20px" class="text-center small">圖 民間司改會2017年度支出分布圖</p>
-                            <script>
-                            var ctx = document.getElementById('myChart1').getContext('2d');
-                            var myChart = new Chart(ctx, {
-                                type: 'pie',
-                                data: {
-                                    labels: ['監督與冤錯案救援(申訴中心)', '法治扎根與志工培力', '法案推動倡議', '義務律師平台與聯盟工作', '連結宣傳、司法資訊平台', '組織營運及發展', '行政', '中部辦公室', '法律倫理中心'],
-                                    datasets: [{
-                                        data: [2690954, 3549513, 2059258, 3764720, 3905181, 4990696, 2864957, 4521424, 839102, ],
-                                        backgroundColor: ["#E67676", "#F2F062", "#A9E6E6", "#7692E4", "#BC4F4F", "#E98B50", "#F3CD97", "#FEF2A0", "#796465"]
-                                    }]
-                                },
-                                options: {
-                                    tooltips: {
-                                        callbacks: {
-                                            label: function(tooltipItem, data) {
-                                                var allData = data.datasets[tooltipItem.datasetIndex].data;
-                                                var tooltipLabel = data.labels[tooltipItem.index];
-                                                var tooltipData = allData[tooltipItem.index];
-                                                var total = 0;
-                                                for (var i in allData) {
-                                                    total += allData[i];
-                                                }
-                                                var tooltipPercentage = Math.round((tooltipData / total) * 100);
-                                                return tooltipLabel + ': ' + tooltipData + ' (' + tooltipPercentage + '%)';
-                                            }
-                                        }
-                                    }
-                                }
-                            });
-                            </script>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <table style="color: #fff" class="table small">
-                                <thead>
-                                    <tr>
-                                        <th class="text-center">類別</th>
-                                        <th class="text-center">重點工作項目</th>
-                                        <th class="text-center">支出（元）</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>監督與冤錯案救援(申訴中心)</td>
-                                        <td>司法改革國是會議落實、偵查不公開、法官檢察官個案評鑑、法庭觀察、冤案救援組</td>
-                                        <td style="text-align: right;">2,690,954&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                        <td>法治扎根與志工培力</td>
-                                        <td>人力資源培訓、學生實習、學生營隊、校園講座、校園模擬法庭</td>
-                                        <td style="text-align: right;">3,549,513&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                        <td>法案推動倡議</td>
-                                        <td>法官法、檢察官法、律師法，刑訴的被告卷證獲知權、防逃以及羈押抗告提出民間版對案</td>
-                                        <td style="text-align: right;">2,059,258&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                        <td>義務律師平台與聯盟工作</td>
-                                        <td>社運律師平台、318義務律師團、聯盟工作</td>
-                                        <td style="text-align: right;">3,764,720&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                        <td>連結宣傳、司法資訊平台</td>
-                                        <td>司法陽光網、判決書API、數位典藏、出版編輯</td>
-                                        <td style="text-align: right;">3,905,181&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                        <td>組織營運及發展</td>
-                                        <td>線上募款平台、年度募款餐會、支持者經營</td>
-                                        <td style="text-align: right;">4,990,696&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                        <td>行政</td>
-                                        <td>一般行政事項</td>
-                                        <td style="text-align: right;">2,864,957&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                        <td>中部辦公室</td>
-                                        <td>監督與冤錯案救援、法治扎根與志工培力、組織發展、行政</td>
-                                        <td style="text-align: right;">4,521,424&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                        <td>法律倫理中心</td>
-                                        <td>翻譯及出版工作</td>
-                                        <td style="text-align: right;">839,102&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center" colspan="2">2017年度支出合計</td>
-                                        <td style="text-align: right;">29,185,804&nbsp;</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="col-md-10 col-md-offset-1">
                     <h4 style="color: #fff"><i class="far fa-paper-plane"></i> 催生「司法改革國是會議」，監督會議決議落實</h4>
-                    <ul class="list">
-                        <li>透過拜會、召開記者會、投書媒體等方式，倡議總統親自帶領司法改革。</li>
-                        <li>司改國是會議期間，共召開11場記者會，監督會議進行。</li>
-                        <li>司改國是會議結束，司改會邀集21個民間團體及14位國是會議委員成立監督聯盟，與官方建立聯繫平台，已經進行3場聯合會議，監督會議決議落實。</li>
-                    </ul>
+                    <p style="color: #fff">在民間強力訴求司法改革下，2016年11月蔡英文總統召開了「司法改革國是會議」，司改會在這場會議中扮演著「催生者、監督者與協力者」的關鍵角色。</p>
+                    <table style="color: #fff;font-weight: 300;font-size: 0.7em" class="table">
+                        <thead>
+                            <tr>
+                                <th class="text-center">司改會推動</th>
+                                <th class="text-center">成果</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>【催生】</strong><br>2015倡議總統推動司改司改會、律師公會及民間團體共同拜會民進黨總統候選人蔡英文，其承諾當選後會立刻推動司法改革</td>
+                                <td>蔡英文總統在2016年520就職演說時，宣布召開「全國司法改革會議」，獲得現場民眾熱烈掌聲，也回應民間的訴求</td>
+                            </tr>
+                                <td><strong>【監督】</strong><br>2016展開「全民司改運動」，訴求要從「使用者 ─ 人民」的需求出發，促成官方舉辦一場「讓全民參與、公開透明，及非法律人過半」的會議。在會議期間，每月舉辦一場記者會，針對司改國是會議的召開給予建議，持續發聲。</td>
+                                <td>司改國是會議在2016年11月開始2017年8月結束。官方採用司改會建議的方式舉辦會議，包括架設網站，蒐集人民提問、非法律背景專家學者過半、會議資料及開會過程影像均公開上網等</td>
+                            </tr>
+                                <td><strong>【協力】</strong><br>2017會議結束後，司改會結合21個民間社團及14位司改國是會議的委員們，組成「民間監督落實司改國是會議決議」聯盟，監督並與政府協力推進會議決議的落實。</td>
+                                <td>民間監督聯盟在2018年與官方建立定期溝通平台，雙方已經進行3場聯合會議，監督會議決議落實</td>
+                            </tr>
+                        </tbody>
+                    </table>
                     <h4 style="color: #fff;margin-top: 40px"><i class="far fa-paper-plane"></i> 推動法治教育</h4>
                     <ul class="list">
                         <li><strong>校園模擬陪審法庭</strong>
@@ -549,6 +466,111 @@
                             <br>《刑事訴訟法》第376條限制一審無罪，二審改判有罪的輕罪案件不得上訴第三審，經大法官釋字第752號宣告違憲，雖然修正了這條規定，但是「新法生效前」的二審有罪確定案件，仍無法據以救濟。有鑑於此，為增訂刑事訴訟法施行法第7-11條，制定兩年的「過渡期間」，讓過往一審無罪、二審有罪的確定案件，在兩年內，能有再尋求救濟的機會。
                         </li>
                     </ul>
+
+                </div>
+                <div class="col-md-10 col-md-offset-1 text-center">
+                    <h1 class="" style="color:#fff;margin-bottom: 1em;display: inline-block;"><span class="small" style="color: #fff;font-weight: 300;">2017</span><br>支出分布</h1><img width="30px" style="padding-bottom: 7px" src="images/w4.svg" alt="">
+                </div>
+                <div class="row">
+
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="col-md-6 col-sm-6">
+                            <canvas id="myChart1"></canvas>
+                            <p style="color: #fff;margin-top: 20px" class="text-center small">圖 民間司改會2017年度支出分布圖</p>
+                            <script>
+                            var ctx = document.getElementById('myChart1').getContext('2d');
+                            var myChart = new Chart(ctx, {
+                                type: 'pie',
+                                data: {
+                                    labels: ['監督與冤錯案救援(申訴中心)', '法治扎根與志工培力', '法案推動倡議', '義務律師平台與聯盟工作', '連結宣傳、司法資訊平台', '組織營運及發展', '行政', '中部辦公室', '法律倫理中心'],
+                                    datasets: [{
+                                        data: [2690954, 3549513, 2059258, 3764720, 3905181, 4990696, 2864957, 4521424, 839102, ],
+                                        backgroundColor: ["#E67676", "#F2F062", "#A9E6E6", "#7692E4", "#BC4F4F", "#E98B50", "#F3CD97", "#FEF2A0", "#796465"]
+                                    }]
+                                },
+                                options: {
+                                    tooltips: {
+                                        callbacks: {
+                                            label: function(tooltipItem, data) {
+                                                var allData = data.datasets[tooltipItem.datasetIndex].data;
+                                                var tooltipLabel = data.labels[tooltipItem.index];
+                                                var tooltipData = allData[tooltipItem.index];
+                                                var total = 0;
+                                                for (var i in allData) {
+                                                    total += allData[i];
+                                                }
+                                                var tooltipPercentage = Math.round((tooltipData / total) * 100);
+                                                return tooltipLabel + ': ' + tooltipData + ' (' + tooltipPercentage + '%)';
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                            </script>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <table style="color: #fff" class="table small">
+                                <thead>
+                                    <tr>
+                                        <th class="text-center">類別</th>
+                                        <th class="text-center">重點工作項目</th>
+                                        <th class="text-center">支出（元）</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>監督與冤錯案救援(申訴中心)</td>
+                                        <td>司法改革國是會議落實、偵查不公開、法官檢察官個案評鑑、法庭觀察、冤案救援組</td>
+                                        <td style="text-align: right;">2,690,954&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>法治扎根與志工培力</td>
+                                        <td>人力資源培訓、學生實習、學生營隊、校園講座、校園模擬法庭</td>
+                                        <td style="text-align: right;">3,549,513&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>法案推動倡議</td>
+                                        <td>法官法、檢察官法、律師法，刑訴的被告卷證獲知權、防逃以及羈押抗告提出民間版對案</td>
+                                        <td style="text-align: right;">2,059,258&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>義務律師平台與聯盟工作</td>
+                                        <td>社運律師平台、318義務律師團、聯盟工作</td>
+                                        <td style="text-align: right;">3,764,720&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>連結宣傳、司法資訊平台</td>
+                                        <td>司法陽光網、判決書API、數位典藏、出版編輯</td>
+                                        <td style="text-align: right;">3,905,181&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>組織營運及發展</td>
+                                        <td>線上募款平台、年度募款餐會、支持者經營</td>
+                                        <td style="text-align: right;">4,990,696&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>行政</td>
+                                        <td>一般行政事項</td>
+                                        <td style="text-align: right;">2,864,957&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>中部辦公室</td>
+                                        <td>監督與冤錯案救援、法治扎根與志工培力、組織發展、行政</td>
+                                        <td style="text-align: right;">4,521,424&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>法律倫理中心</td>
+                                        <td>翻譯及出版工作</td>
+                                        <td style="text-align: right;">839,102&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center" colspan="2">2017年度支出合計</td>
+                                        <td style="text-align: right;">29,185,804&nbsp;</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!--頁尾-->
