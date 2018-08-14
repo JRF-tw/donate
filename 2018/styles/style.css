@@ -156,16 +156,6 @@ p {
     margin-bottom: 10px;
 }
 
-
-/* icon */
-
-#icon {
-    animation: icon 0.7s infinite alternate;
-    float: left;
-    position: absolute;
-    top: 30px;
-}
-
 h4 {
     color: #fff;
 }
@@ -176,29 +166,45 @@ h4 {
     padding-left: 40px;
     font-weight: 300;
 }
-
-
-/* Safari 4.0 - 8.0 */
-
-@-webkit-keyframes icon {
-    0% {
-        transform: rotate(-20deg);
-    }
-    100% {
-        transform: rotate(0deg);
-    }
+#menu li {
+    display:inline-block;
+    margin: 1px;
+    color: #000;
+    background:#fff;
+    background: rgba(255,255,255, 0.5);
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
 }
-
-
-
-
-/* Standard syntax */
-
-@keyframes icon {
-    0% {
-        transform: rotate(-20deg);
-    }
-    100% {
-        transform: rotate(0deg);
-    }
+#menu li.active{
+    background:#666;
+    background: rgba(0,0,0, 0.5);
+    color: #fff;
+}
+#menu li a{
+    text-decoration:none;
+    color: #000;
+}
+#menu li.active a:hover{
+    color: #000;
+}
+#menu li:hover{
+    background: rgba(255,255,255, 0.8);
+}
+#menu li a,
+#menu li.active a{
+    padding: 5px 10px;
+    display:block;
+}
+#menu li.active a{
+    color: #fff;
+}
+#menu{
+    position:fixed;
+    top:0;
+    left:0;
+    height: 40px;
+    z-index: 999;
+    width: 100%;
+    padding: 0;
+    margin:4px;
 }
