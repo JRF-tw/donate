@@ -208,3 +208,11 @@ h4 {
     padding: 0;
     margin:4px;
 }
+@media screen and (min-width:1400px) {
+    .visible-xl{
+        display: block!important;
+    }
+    .hidden-xl{
+        display: none!important;
+    }
+}
