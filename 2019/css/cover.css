@@ -20,7 +20,7 @@ html {
 }
 
 body {
-    background-color: #f5cd1e;
+    background: url(../img/bg2.png) bottom center repeat fixed #ffffff;
     font-family: '微軟正黑體';
     color: #000;
     webkit-tap-highlight-color: rgba(0, 0, 0, .2)
@@ -142,7 +142,6 @@ blockquote:before {
 }
 
 .content-section {
-    background-color: #f5cd1e;
     color: #000;
     text-align: justify;
 }
@@ -441,6 +440,7 @@ footer {
     padding: 50px 0;
     background-color: #000000;
     color: #cccccc;
+    margin-top: 50px;
 }
 
 footer .container .row .col-sm-6 p {
