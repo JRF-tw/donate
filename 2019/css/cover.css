@@ -25,7 +25,13 @@ body {
     color: #000;
     webkit-tap-highlight-color: rgba(0, 0, 0, .2)
 }
-
+.box{
+    background-color: #ffffff;box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, .6);
+}
+.img-box{
+    border:3px solid #000000;
+    border-radius:10px;
+}
 .btn,
 .navbar-custom,
 h1,
