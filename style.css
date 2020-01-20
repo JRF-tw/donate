@@ -35,8 +35,8 @@ footer{
     .swiper-slide {
       background-position: center;
       background-size: cover;
-      width: 300px;
-      height: 400px;
+      width: 400px;
+      height: 450px;
   }
   :root {
     --swiper-theme-color: #ffd369;
