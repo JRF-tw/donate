@@ -44,8 +44,8 @@ footer{
 .mt60{
     margin-top: 60px;
     }
-.mb30{
-    margin-bottom: 30px;
+.pb30{
+    padding-bottom: 30px;
 }
     h1,h2,h3,h4,h5{
         font-weight: 700;
@@ -97,4 +97,17 @@ footer{
 .img-box{
     border: 1px solid #fff1cf;
     border-radius: 10px;
+}
+.label {
+    display: inline;
+    padding: .1em .6em .1em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 2;
+    color:#015668;
+    background-color: #FFD369;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
 }
