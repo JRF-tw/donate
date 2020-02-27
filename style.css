@@ -10,7 +10,14 @@ footer{
     color:#fff1cf;
     padding: 2em;
 }
-    
+a {
+    color: #f0ad4e;
+    text-decoration: none;
+}
+a:focus, a:hover {
+    color: rgb(255, 241, 207);
+    text-decoration: underline;
+}
     blockquote:before {
         content: "“";
         width: 25px;
