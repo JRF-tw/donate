@@ -140,3 +140,19 @@ a:focus, a:hover {
 .btn-warning {
     color:rgb(1, 86, 104);
 }
+.popover{
+  max-width:200px;
+  font-family: 'Open Sans', Helvetica, Arial, "Source Han Sans TC", "Microsoft Jhenghei", sans-serif !important;
+  font-size: 12px;
+  background-color: #fff1cf;
+  color: #015668;
+}
+.popover.top{
+  margin-top:-10px;
+  margin-left: 60px;
+}
+.popover-title{
+  font-weight: 600;
+  color:#fff1cf;
+  background-color:rgb(1, 86, 104);
+}
