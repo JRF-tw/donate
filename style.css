@@ -13,7 +13,9 @@ footer{
 a {
     color: #f0ad4e;
     text-decoration: none;
+    cursor: pointer;
 }
+
 a:focus, a:hover {
     color: rgb(255, 241, 207);
     text-decoration: underline;
@@ -58,10 +60,11 @@ a:focus, a:hover {
         font-weight: 700;
         color: #ffd369;
     }
-    .lead{
-        color: #ffd369;
+.lead{
+        color: rgb(255, 241, 207);
         font-weight: 600;
-    }
+        font-size: 1.4em;
+}
     .bg-inverse {
     background-color: #263f44!important;
 }
@@ -99,7 +102,10 @@ a:focus, a:hover {
 }
 .f-bold2{
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 1.2em;
+}
+.nobreak {
+    display: inline-block;
 }
 .img-box{
     border: 1px solid #fff1cf;
