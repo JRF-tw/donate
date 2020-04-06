@@ -57,18 +57,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="col-lg-10">
     <div class="swiper-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide"><a href="1.html"><img src="img/t1.svg" width="100%"></a><p class="text-center f-bold">#林大洋</p></div>
-      <div class="swiper-slide"><a href="2.html"><img src="img/t2.svg" width="100%"></a><p class="text-center f-bold">#董華正</p></div>
-      <div class="swiper-slide"><a href="4.html"><img src="img/t4.svg" width="100%"></a><p class="text-center f-bold">#楊年發</p></div>
-      <div class="swiper-slide"><a href="5.html"><img src="img/t5.svg" width="100%"></a><p class="text-center f-bold">#邱錫勳</p></div>
-      <div class="swiper-slide"><a href="6.html"><img src="img/t6.png" width="100%"></a><p class="text-center f-bold">#林桂英</p></div>
-      <div class="swiper-slide"><a href="7.html"><img src="img/t7.png" width="100%"></a><p class="text-center f-bold">#余明宗</p></div>
-      <div class="swiper-slide"><a href="3.html"><img src="img/t3.svg" width="100%"></a><p class="text-center f-bold">#陳姝香</p></div>
+      <div class="swiper-slide"><a href="1.html"><img src="img/t1.svg" width="90%"></a><p class="text-center f-bold">#林大洋</p></div>
+      <div class="swiper-slide"><a href="2.html"><img src="img/t2.svg" width="90%"></a><p class="text-center f-bold">#董華正</p></div>
+      <div class="swiper-slide"><a href="4.html"><img src="img/t4.svg" width="90%"></a><p class="text-center f-bold">#楊年發</p></div>
+      <div class="swiper-slide"><a href="5.html"><img src="img/t5.svg" width="90%"></a><p class="text-center f-bold">#邱錫勳</p></div>
+      <div class="swiper-slide"><a href="6.html"><img src="img/t6.png" width="90%"></a><p class="text-center f-bold">#林桂英</p></div>
+      <div class="swiper-slide"><a href="7.html"><img src="img/t7.png" width="90%"></a><p class="text-center f-bold">#余明宗</p></div>
+      <div class="swiper-slide"><a href="3.html"><img src="img/t3.svg" width="90%"></a><p class="text-center f-bold">#陳姝香</p></div>
     </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
+  </div></div>
+  
     
-  </div><p class="text-center">← 左右滑動看畫家 →</p></div>
 </div>
   </div>
   
@@ -207,6 +210,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper('.swiper-container', {
+
       effect: 'coverflow',
       loop: true,
       grabCursor: true,
@@ -222,6 +226,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       pagination: {
         el: '.swiper-pagination',
       },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      mousewheel: true,
+      keyboard: true,
     });
   </script>
   <script>
