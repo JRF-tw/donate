@@ -108,7 +108,7 @@ hr {
         font-weight: 600;
         font-size: 1.4em;
 }
-    .bg-inverse {
+.bg-dark {
     background-color: #263f44!important;
 }
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-toggler {
