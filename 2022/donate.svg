@@ -3,12 +3,12 @@
 <svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 242.6 51" style="enable-background:new 0 0 242.6 51;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
-	.st1{fill:#FFFFFF;}
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#6DA7FC;stroke:#6DA7FC;stroke-width:0.25;stroke-miterlimit:10;}
 	.st2{font-family:'PingFangTC-Semibold-B5pc-H';}
 	.st3{font-size:23.3453px;}
 </style>
-<path class="st0" d="M213,48H25.5c-12,0-21.7-9.7-21.7-21.7v0c0-12,9.7-21.7,21.7-21.7H213c12,0,21.7,9.7,21.7,21.7v0
-	C234.8,38.2,225,48,213,48z"/>
-<text transform="matrix(1 0 0 1 72.5964 33.5422)" class="st1 st2 st3">捐款支持</text>
+<path class="st0" d="M215,47H27.5c-12,0-21.7-9.7-21.7-21.7l0,0c0-12,9.7-21.7,21.7-21.7H215c12,0,21.7,9.7,21.7,21.7l0,0
+	C236.8,37.2,227,47,215,47z"/>
+<text transform="matrix(1 0 0 1 74.5964 32.5422)" class="st1 st2 st3">捐款支持</text>
 </svg>
